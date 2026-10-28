@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Pastel" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/peach_dark</item>
+        <item name="colorPrimaryDark">@color/peach_dark</item>
+        <item name="colorAccent">@color/lilac_dark</item>
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="PastelButton">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
+</resources>
