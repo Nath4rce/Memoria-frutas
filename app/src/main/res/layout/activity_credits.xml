@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créditos"
+        android:textColor="@color/text_dark"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Memoria de Frutas\nEntrega #4 - Final (Juego)\n\nDesarrollado por:\nNatalia Arce Peñuela\n\nApp nativa · Android Studio · Kotlin"
+        android:textColor="@color/text_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        style="@style/PastelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Volver" />
+</LinearLayout>

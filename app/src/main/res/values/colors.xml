@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cream">#FFF8F0</color>
+    <color name="peach">#FFCFB8</color>
+    <color name="peach_dark">#F4A582</color>
+    <color name="mint">#BDE8D0</color>
+    <color name="mint_dark">#7FCBA4</color>
+    <color name="lilac">#D9C7F0</color>
+    <color name="lilac_dark">#B79CE0</color>
+    <color name="text_dark">#5A4A6B</color>
 </resources>

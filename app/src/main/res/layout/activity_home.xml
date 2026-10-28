@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homeRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🍎🍉🍍"
+        android:textSize="48sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Memoria de Frutas"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_input"
+        android:hint="Tu nombre"
+        android:inputType="textPersonName"
+        android:maxLength="15"
+        android:padding="14dp"
+        android:textColor="@color/text_dark" />
+
+    <TextView
+        android:id="@+id/tvBest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="🏆 Mejor puntaje: 0"
+        android:textColor="@color/text_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        style="@style/PastelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Jugar" />
+
+    <Button
+        android:id="@+id/btnScore"
+        style="@style/PastelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_button_mint"
+        android:text="Puntaje" />
+
+    <Button
+        android:id="@+id/btnCredits"
+        style="@style/PastelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_button_lilac"
+        android:text="Créditos" />
+</LinearLayout>
