@@ -11,10 +11,9 @@ import android.view.View
 import android.widget.GridLayout
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.Toast
 
-class GameActivity : AppCompatActivity() {
+class GameActivity : BaseActivity() {
 
     // Una carta: su emoji, su vista y su estado
     private class Card(val emoji: String, val view: TextView) {

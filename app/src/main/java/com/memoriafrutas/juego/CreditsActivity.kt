@@ -6,9 +6,8 @@ import android.widget.Button
 import android.widget.FrameLayout
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 
-class CreditsActivity : AppCompatActivity() {
+class CreditsActivity : BaseActivity() {
 
     private var taps = 0
 
