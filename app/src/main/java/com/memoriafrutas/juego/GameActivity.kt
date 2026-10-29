@@ -12,6 +12,7 @@ import android.widget.GridLayout
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Toast
 
 class GameActivity : AppCompatActivity() {
 
@@ -167,6 +168,11 @@ class GameActivity : AppCompatActivity() {
         timer?.cancel()
         val bonus = secondsLeft * 5 + lives * 20   // bonus por tiempo y vidas sobrantes
         score += bonus
+        // EASTER EGG: nivel sin errores
+        if (lives == livesPerLevel[levelIndex]) {
+            score += 200
+            Toast.makeText(this, "¡Nivel perfecto! Memoria de elefante 🐘 +200", Toast.LENGTH_LONG).show()
+        }
         updateHud()
 
         if (levelIndex == pairsPerLevel.lastIndex) {
